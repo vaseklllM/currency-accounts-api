@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "currency-accounts-api", "currency-accounts-api\currency-accounts-api.csproj", "{088817EF-41FE-465D-8E24-F984C971AC43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088817EF-41FE-465D-8E24-F984C971AC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088817EF-41FE-465D-8E24-F984C971AC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088817EF-41FE-465D-8E24-F984C971AC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088817EF-41FE-465D-8E24-F984C971AC43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3190C5-9CB1-41E4-993E-4C5F5899E099}
+	EndGlobalSection
+EndGlobal
