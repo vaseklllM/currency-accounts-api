@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using currency_accounts_api.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,17 @@ namespace currency_accounts_api.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+        }
+
+
+        [HttpGet]
+        [Route("testRoute")]
+        public TestData testRequest()
+        {
+            TestData data = new TestData();       
+            data.year = 50;      
+       
+            return data;
         }
 
         [HttpGet]
